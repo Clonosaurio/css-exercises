@@ -3,6 +3,7 @@
   background: papayawhip;
   display: flex;
   justify-content: space-between;
+  padding: 10px;
 }
 
 .logo {
@@ -16,20 +17,44 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  /*padding: 20px;*/
+  padding: 0px; /**/
+  display: flex;
+  flex: 1 1 auto;
+  gap: 10px;
 }
 
 a {
   font-size: 22px;
   background: white;
-  padding: 8px;
+  flex: auto;
+  gap: 10px;
+  padding: 5px;
   /* this removes the line under the links */
   text-decoration: none;
 }
 
 .left-links, .right-links {
   display: flex;
-  flex-direction: row;
-  width: 400px;
+  flex: 1 1 auto;
+  align-items: flex-start;
+  /*background-color: red;*/
+}
+
+.left-links ul li, .right-links ul li {
+  display: flex;
   flex: 0 0 auto;
-  align-items: center;
+
+}
+
+.right-links ul {
+  justify-content: flex-end;
+}
+
+.left-links ul {
+  justify-content: flex-start;
+}
+
+* {
+  /*border: 1px solid blue;*/
 }
