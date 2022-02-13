@@ -72,17 +72,22 @@ button.cancel {
 
 .header {
   flex: auto;
+  font-weight: 900;
 }
 
 .head-close {
   display: flex;
   flex: auto;
+  padding: 10px;
 }
 
 .text {
   flex: auto;
+  padding: 10px;
 }
 
 .botones {
   display: flex;
+  padding: 10px;
+  gap: 5px;
 }
