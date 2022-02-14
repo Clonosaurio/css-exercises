@@ -26,3 +26,38 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  display: flex;
+}
+
+.card {
+  flex: 0 0 auto;
+  width: 300px;
+  height: auto;
+  margin: 20px;
+}
+
+.header {
+  flex: 0 1 auto;
+  font-size: 32px;
+  font-weight: 900;
+}
